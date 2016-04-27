@@ -1,0 +1,138 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="device.css">
+<link rel="stylesheet" href="animate.css">
+</head>
+<script>
+  function start()
+{
+	$("#cover").css("display","none");
+	$("#inside").css("display","block");
+}
+//  function note()
+//{
+//	$("#note").css("display","block");
+//}
+
+</script>
+
+<body>
+
+
+   <div class="marvel-device macbook">
+    <div class="top-bar"></div>
+    <div class="camera"></div>
+    <div class="screen">
+  
+
+<!--cover-->
+<div id="cover" style="display:block;">
+   <div class="cover_img">
+     <span class="inside_logo animated fadeInDown"></span>
+      <!--side_img-->
+    <div class="side_cover">
+          <!--side_txt_img-->  
+          <div class="covertxt animated fadeInDown">
+             <p style="margin:0px;">Equine EXCEDE Potential</p>
+          </div>
+          <!--side_txt_img-->
+    </div>
+    <!--side_img-->
+    
+    
+    <!--btn_img-->
+    <div class="btn-img animated bounceInDown" onClick="start()"></div>
+    <!--btn_img-->
+   </div>
+   <!--cover_img-->
+</div>
+<!--cover-->
+
+<section id="inside" class="inside_img" style="display:none;">
+   <span class="inside_logo2 animated fadeInRight"></span>
+   
+     <!--white_top_box-->
+   <div class="white_top_box animated fadeInDown">
+      
+        <!--left_box1-->
+        <div class="left_box1 animated fadeInLeft">
+             
+           <div class="paraghrap">
+              <p style="margin-top: 6px;">Number of Horses Seen</p>
+              
+           </div>
+           <span><input type="text" size="10" class="txt_leftbox1"></span>
+            <!--<span class="icon" onClick="note()">
+                <div id="note" style="display:none;">
+                  <img src="img/note.png" style="float:right;margin-top:282px;margin-right: 245px;">
+                </div>
+            </span>-->
+        </div>
+        <!--left_box1-->
+        
+        <!--left_box1-->
+        <div class="left_boxss1 animated fadeInRight">
+           <div class="paraghrap vv">
+              <p style="margin-top: 6px;">EXCEDE® Purchases (12 Month)</p>
+           </div>
+           <span><input type="text" size="10" class="txt_leftbox1"></span>
+        </div>
+        <!--left_box1-->
+        
+        <!--left_box2-->
+        <div class="left_box2 animated fadeInLeft">
+           <div class="paraghrapb">
+               <p style="margin: 0px;">Number of Horses Treated with an Anti-Infective</p>
+           </div>
+           <span ><input type="text" size="10" class="txt_leftbox1"></span>
+        </div>
+        <!--left_box2-->
+        
+        
+        <!--right_box2-->
+        <div class="right_boxs2 animated fadeInRight">
+           <div class="paraghrap gg">
+              <p style="margin-top: 0px;">Percent of Anti-Infective Horses  Treaed with EXCEDE®</p>
+           </div>
+           <span><input type="text" size="10" class="txt_leftbox1"></span>
+        </div>
+        <!--right_box2-->
+        
+   </div>
+   <!--white_top_box-->
+   <div class="cal_btn animated bounceInLeft"></div>
+   
+   <div class="footer_box1 animated bounceInRight">
+      <span><input type="text" size="10" class="footer_txt_box" ></span>
+      <div class="footrtxt">
+         <p style="margin-top:5px;">EXCEDE® Potential</p>
+      </div>
+   </div>
+   
+   <div class="footer_box2 animated bounce">
+      <span><input type="text" size="10" class="footer_txt_box" ></span>
+      <div class="footrtxt mtxt">
+         <p style="margin-top:0px;">Dollar/Horse Treated</p>
+      </div>
+   </div>
+   
+   <div class="footer_box2 animated bounceInLeft">
+      
+     <span><input type="text" size="10" class="footer_txt_box"></span>
+     <div class="footrtxt">
+         <p style="margin-top:0px;">Percent Horses Treated with an Anti-Infective</p>
+      </div>
+   </div>
+</section>
+
+    </div>
+    <div class="bottom-bar"></div>
+</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
